@@ -1,0 +1,371 @@
+/*MOBILE*/
+@media (max-width: 46.1875em) {
+    /*Common*/
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+
+    /*Main*/
+
+    #header {
+        position: absolute;
+        overflow: hidden;
+        display: block;
+        height: 46px;
+    }
+    .header__logo--img {
+        display: none;
+    }
+    
+    #nav {
+        display: block;
+        
+    }
+    #nav > li {
+       display: block;
+       
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+        width: 100%;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        padding: 5px 41px;
+        color: #fff;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .mobile-menu-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .slide img {
+        object-fit: contain;
+    }
+    
+    .contact-content {
+        margin-left: 10px;
+    }
+    .contact-info {
+        text-align: center;
+    }
+
+  
+
+    .tickets-list .soid-out {
+        line-height: 13px;
+    }
+    .section__intro {
+        width: 100%;
+        text-align: center;
+    }
+    #content {
+        margin-top: -200px;
+    }
+
+    #content .member-img{
+        width: 100%; 
+    }
+    .btn {
+        margin-bottom: 40px;
+    }
+    .pleces-list {
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        
+    }
+    
+    .pleces-member {
+       margin-left: 30px ;
+    }
+    .pleces-member__favourit span {
+        margin-right: 8px;
+    }
+    .pleces-member__sale-off {
+        left: 210px;
+    }
+
+    .footer {
+        display: block;
+    }
+    .footer-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+    }   
+   
+    .socials-list {
+        display: block;
+        width: 100%;
+    }
+    
+
+    .social-sub-follow {
+       align-items: center;
+       justify-content: center;
+       display: flex;
+    }
+    .social-sub-follow h4 {
+        padding: 0 0;
+    }
+    .active-time {
+        border-left: none;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+ 
+    .active-sub-heading {
+        padding-top: 70px;
+        display: block;
+    }
+
+    .separation {
+        border-left: none;
+    }
+    
+
+
+    
+  
+   
+       
+   
+   
+
+    /*begin icon*/
+    #header .search-btn {
+        display: none;
+    }
+    #header .facebook-btn{
+        display: none;
+    }
+    #header .twitter-btn{
+        display: none;
+    }
+    /*end icon*/
+
+    #nav li a{
+        padding: 0 30px;
+        
+    }
+    #slider {
+        margin-top: -200px;
+    }
+    .slide {
+        height: 234px;
+    }
+
+    #slider .text-content{
+        font-size: 11px;
+        bottom: 540px;
+    }
+    .navigation-auto {
+        display: none ;
+    }
+    .navigation-manual {
+        display: none;
+    }
+    .modal-container{
+        width: calc(100% - 32px);
+    }
+    /*begin new menu*/
+    .new-menu.open {
+        display: flex;
+    }
+    .new-menu{
+        position: fixed;
+        top:0 ;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+        align-items: center;
+        justify-content: center;
+        display: none;
+        z-index: 2;
+    }
+    .new-menu-container{
+        background: #000011;
+        min-height: 200px;
+        max-height: calc(100%-32px);   
+        margin-top: 46px;
+    }
+    .new-menu-barber{
+        font-size: 25px;
+        color: #fff;
+        padding: 0 20px;
+    }
+    #sub-menu li {
+        padding: 7px;
+        margin-top: 10px;
+        list-style: none; 
+        line-height: 35px;
+    }
+    #sub-menu li a {
+        text-decoration: none;
+        color:ivory;
+        border: 1px solid #000;
+       
+    }
+    #sub-menu li a:hover{
+        background-color: ivory;
+        color: #000011;
+    }
+    #sub-menu > li:hover a{
+        display: block;  
+    }
+    #sub-menu > li > a {
+        text-transform: uppercase; 
+    }
+    /*End sub menu*/
+   
+
+      
+    
+      
+    
+}
+/*PC*/
+@media (min-width:64em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/*Tablet*/
+@media (min-width:46.25em) and (max-width:64em) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    .header__logo--img {
+        margin-left: 1px;
+    }
+
+    #nav li a {
+        padding: 0 10px;
+    }
+
+    #nav .subnav a {
+        padding: 0 2px;
+    }
+    .slider__button {
+        left: 750px;
+        top: -350px;
+    }
+    #content .content-section{
+        width: calc(100% - 32px);
+    }
+    #content .about-text{
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.6;
+    }
+    .pleces-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -20px;
+    }
+    .pleces-member__sale-off {
+        left: 210px;
+    }
+    .pleces-member {
+       margin-left: 20px ;
+    }
+    .pleces-member__favourit span {
+        margin-right: 8px;
+    }
+    .socials-list {
+        text-align: center;
+        border-left: none ;
+    }
+    .social-follow {
+        margin-left: 20px;
+      
+    }
+    .social-sub-follow {
+        margin-left: -54px;
+    }
+    .social-sub-follow h4 {
+        display: block;
+        padding: 0;
+    }
+    .icon-facebook {
+       margin-left: 80px;
+    }
+    
+    .separation{
+        margin-left: 270px;
+        border: none;
+    }
+    .active-time {
+        border: none;
+    }
+    .section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section__intro {
+        width: 100%;
+        float: right;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .section-heading {
+        margin-top: 30px;
+    }
+    .member-list {
+        flex: 1;
+    }
+    #content .member-img {
+        margin-top: 100px;
+    }
+   
+
+    
+
+    
+    
+
+
+    
+ 
+   
+}  
+/*Tablet and Mobile*/
+@media (max-width:63.9375em) {
+    .contact-info{
+        line-height: 2;
+    }
+    .contact-form .form-control{
+        padding: 18px;
+        font-size: 16px;
+    }
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+    
+    
+    
+}

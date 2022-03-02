@@ -1,0 +1,142 @@
+html {
+    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
+}
+:root { 
+    --primary-color :#12c2e9;
+    --white-color:#fff;
+    --black-color: #000;
+    --text-color: #333;
+    --star-gold: #ffce3e;
+    --boder-color:#dbdbdb;
+    --width: 250px;
+}
+.text-gold {
+    color: #efc439;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Grid */
+.grid {
+   width: 1200px;
+   max-width: 100%;
+   margin: 0 auto;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/* Column */
+.grid__column--10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+} 
+.grid__column--4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+}
+.grid__column--3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40%;
+}
+
+/*Common*/
+#clear{
+    clear: both;
+}
+.text-white{
+    color: #fff !important;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+.col-full{
+    width: 100%;
+}
+.col-half{
+    width: 50%;
+}
+
+.mt-8{
+    margin-top: 8px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+.pull-right{
+    float: right !important;
+}
+
+.btn{
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.btn:hover {
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes runRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(250deg, DeepSkyBlue, Black);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(250deg, #800000, #2F4F4F);
+        -webkit-background-clip: text;
+    }
+}
+
+
+
+
+

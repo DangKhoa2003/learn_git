@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5501,
+    "search.maintainFileSearchCache": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true
+}

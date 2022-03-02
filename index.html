@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DK Barber Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://graphicriver.img.customer.envatousercontent.com/files/322289008/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=f2bf7c96c12c88ded8785f535a1420ed"type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@200&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="header" class="header">
+            <div class="header__logo">
+                <img src="https://graphicriver.img.customer.envatousercontent.com/files/322289008/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=f2bf7c96c12c88ded8785f535a1420ed" alt="" class="header__logo--img">
+            </div>
+            <!--Begin Nav-->
+            <ul id="nav">
+                <li><i class="nav__home fas fa-home"></i></li>
+                <li><a href="#SanPham">
+                        Sản Phẩm
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a><!--  -->
+                    <ul class="subnav">
+                        <li><a href="#SanPham">Sáp</a></li>
+                        <li><a href="#SanPham">Máy Sấy Tóc</a></li>
+                        <li><a href="#SanPham">Tông Đơ Cắt Tóc</a></li>
+                    </ul>
+                </li>
+                <li><a href="#LienHe">Liên Hệ</a></li>
+                <li><a href="#LienHe">Cộng đồng</a></li>
+                <li><a href="#DichVu">Dịch Vụ</a></li>
+                <li><a href="#Blog">Blog</a></li>
+            </ul>
+            
+            <!--End Nav-->
+            <!--Begin:Icon button-->
+            <div id="mobile-menu" class="mobile-menu-btn js-menu-open">
+                <i class="menu-icon ti-view-list js-menu-open"></i>
+            </div>
+            <!--End : ICON button-->
+        </div>
+        <div id="slider">
+            <div class="sliders">
+                <!-- radio btn start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <!-- radio btn end -->
+                <div class="slide first">
+                    <img src="./assets/img/không gian 1.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/barber 4.jpeg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/barber 2.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/barber 3.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./assets/img/barber cuoi.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+
+                </div>
+            </div>
+
+            <!-- Manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+            <!-- Manual navigation end -->
+
+            <a href=""class="slider__button--link">
+                <div class="slider__button">
+                    <div class="heart"></div>
+                    <p>Đăng ký</p>
+                </div>
+            </a>
+            <div id="TrangChu" class="text-content">
+                <h2 class="text-heading">Ho Chi Minh City</h2>
+                <div class="text-description">Delivering the best in the barbershop industry!</div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <!--Phần Bụi Barber House-->
+            <div id="Trangchu" class="section">
+                <div class="section__intro">
+                    <h2 class="section-heading text-gold">DK BARBER HOUSE</h2>
+                    <p class="section-sub-heading text-gold"> Giới Thiệu</p>
+                    <p class="about-text text-white">
+                        Everybody has a plan for future. Though future is uncertain and many times unpredictable, I believe
+                        that to some extent our future depends on our actions on past and present. In the future, I want to
+                        run a mega shopping mall business where my involvement would not be mandatory to run the daily
+                        business and I would enjoy my time by visiting different places of the world.
+                    </p>
+                    <p class="about-text text-white">
+                        Mọi người đều có kế hoạch cho tương lai. Mặc dù tương lai là không chắc chắn và nhiều khi không thể đoán trước được, nhưng tôi tin rằng ở một mức độ nào đó, tương lai của chúng ta phụ thuộc vào hành động của chúng ta đối với quá khứ và hiện tại. Trong tương lai, tôi muốn điều hành một công ty kinh doanh trung tâm mua sắm lớn mà sự tham gia của tôi sẽ không bắt buộc phải điều hành công việc kinh doanh hàng ngày và tôi sẽ tận hưởng thời gian của mình bằng cách đi thăm những nơi khác nhau trên thế giới.
+                    </p>
+                </div>
+               
+                <div class="member-list">
+                    <div class="member-item">
+                        <p class="member-name"></p>
+                        <img src="./assets/img/không gian 1.jpg" alt="Không Gian Barber" class="member-img">
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Sản Phẩm-->
+            <div id="SanPham" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-gold ">SẢN PHẨM </h2>
+                    <p class="section-sub-heading text-gold">Cảm ơn bạn đã đồng hành đến Shop!</p>
+                    <p class="section-sub-heading text-gold">(Thank you for companion the Shop!)</p>
+                </div>
+                <!--Thông tin về sản phẩm-->
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="pleces-list">
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                    <div style="background-image: url(https://saptoc.vn/images/pomade-goc-nuoc/suavecito-winter-firme.jpg);" class="pleces-img"></div>
+                                    <div class="pleces-body">
+                                        <h3 class="pleces-heading">SUAVECITO FIRME HOLD WINTER </h3>
+                                        <p class="pleces-time">310.000/Hộp</p>
+                                       
+                                        <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                    </div>
+                                    <div class="pleces-member__favourit">
+                                        <i class="ti-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                    <div class="pleces-member__sale-off">
+                                        <span class="pleces-member__sale--label">GIẢM</span>
+                                        <span class="pleces-member__sale--percent">35%</span>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                        <div style="background-image: url(https://saptoc.vn/images/pomade-goc-nuoc/suavecito-tribal.jpg);"
+                                            class="pleces-img"></div>
+                                        <div class="pleces-body">
+                                            <h3 class="pleces-heading">SUAVECITO X TRIBAL FIRME (STRONG) HOLD POMADE</h3>
+                                            <p class="pleces-time">330.000/Hộp</p>
+                                            
+                                            <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                        </div>
+                                        <div class="pleces-member__favourit">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="pleces-member__sale-off">
+                                            <span class="pleces-member__sale--label">GIẢM</span>
+                                            <span class="pleces-member__sale--percent">33%</span>
+                                        </div>
+                                </a>
+                            </div>
+                         
+        
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                            <div class="pleces-img" style="background-image: url(https://saptoc.vn/images/pomade-goc-nuoc/suavecito-spring-1.jpg);"></div>
+                                            <div class="pleces-body">
+                                                <h3 class="pleces-heading">SUAVECITO FIRME HOLD SPRING POMADE</h3>
+                                                <p class="pleces-time">350.000/Hộp</p>
+                                                
+                                                <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                           </div>
+                                           <div class="pleces-member__favourit">
+                                                <i class="ti-check"></i>
+                                                <span>Yêu thích</span>
+                                            </div>
+                                           <div class="pleces-member__sale-off">
+                                               <span class="pleces-member__sale--label">GIẢM</span>
+                                               <span class="pleces-member__sale--percent">30%</span>
+                                           </div>
+                                </a>
+                            </div>
+        
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                    <div class="pleces-img" style="background-image: url(https://bizweb.dktcdn.net/100/133/155/products/suavecito-unscented-firme-hold-pomade.png?v=1496041470543);"></div>
+                                    <div class="pleces-body">
+                                        <h3 class="pleces-heading">Suavecito Unscented Pomade</h3>
+                                        <p class="pleces-time">360.000/Hộp</p>
+                                        
+                                        <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                        <div class="pleces-member__favourit">
+                                            <i class="ti-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="pleces-member__sale-off">
+                                            <span class="pleces-member__sale--label">GIẢM</span>
+                                            <span class="pleces-member__sale--percent">27%</span>
+                                        </div>
+                                   </div>
+                                </a>                         
+                            </div>
+        
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                    <div class="pleces-img" style="background-image: url(https://4rau.vn/upload/sanpham/suavecito_x_tapatio_matte_pomade_side_2048x0951_250x200.jpg);"></div>
+                                    <div class="pleces-body">
+                                        <h3 class="pleces-heading">Suavecito X Tapatio Matte Pomade</h3>
+                                        <p class="pleces-time">380.000/Hộp</p>
+                                        
+                                        <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                        <div class="pleces-member__sale-off">
+                                            <span class="pleces-member__sale--label">GIẢM</span>
+                                            <span class="pleces-member__sale--percent">45%</span>
+                                        </div>
+                                   </div>
+                                </a>                         
+                            </div>
+
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                    <div class="pleces-img" style="background-image: url(https://classic.vn/wp-content/uploads/2021/03/10th-Anniversary-Super-Firme-Hold-Pomade-3.jpg);"></div>
+                                    <div class="pleces-body">
+                                        <h3 class="pleces-heading">Suavecito 10th Anniversary Super Firme Hold Pomade</h3>
+                                        <p class="pleces-time">399.000/Hộp</p>
+                                        
+                                        <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                        <div class="pleces-member__sale-off">
+                                            <span class="pleces-member__sale--label">GIẢM</span>
+                                            <span class="pleces-member__sale--percent">32%</span>
+                                        </div>
+                                   </div>
+                                </a>                         
+                            </div>
+
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                    <div class="pleces-img" style="background-image: url(https://saptoc.vn/images/pomade-goc-nuoc/suavecito-pomade/suavecito-summer-pomade-firme-hold-2.jpg);"></div>
+                                    <div class="pleces-body">
+                                        <h3 class="pleces-heading">SUAVECITO SUMMER POMADE FIRME HOLD</h3>
+                                        <p class="pleces-time">320.000/Hộp</p>
+                                        
+                                        <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                        <div class="pleces-member__sale-off">
+                                            <span class="pleces-member__sale--label">GIẢM</span>
+                                            <span class="pleces-member__sale--percent">20%</span>
+                                        </div>
+                                   </div>
+                                </a>                         
+                            </div>
+
+                            <div class="grid__column--4">
+                                <a href="#" class="pleces-member">
+                                    <div class="pleces-img" style="background-image: url(https://saptoc.vn/images/pomade-goc-nuoc/suavecito-pomade/suavecito-firme-strong-hold-dark-wood-2.jpg);"></div>
+                                    <div class="pleces-body">
+                                        <h3 class="pleces-heading">Suavecito Firme Hold Dark Woods Pomade</h3>
+                                        <p class="pleces-time">280.000/Hộp</p>
+                                        
+                                        <button class="btn js-buy-ticket s-full-width">Đặt Hàng</button>
+                                        <div class="pleces-member__sale-off">
+                                            <span class="pleces-member__sale--label">GIẢM</span>
+                                            <span class="pleces-member__sale--percent">18%</span>
+                                        </div>
+                                   </div>
+                                </a>                         
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!-- Begin Liên Hệ-->
+            
+            
+            <div id="LienHe" class="content-section">
+                <h2 class="section-heading text-gold">ĐỊA CHỈ CỬA HÀNG</h2>
+                <p class="section-sub-heading  text-gold">Barber Shop DK</p>
+
+                <div class="contact-content">
+                    <div class=" s-col-full contact-info text-white">
+                        <p><i class="ti-location-pin text-white"></i>HCM City, Vietnam</p>
+                        <p><i class="ti-mobile text-white"></i>Phone: <a href="034 543 6547">034 543 6547</a></p>
+                        <p><i class="ti-email text-white"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+
+                    </div>
+                    <div class=" s-col-full contact-form ">
+                        <form action="">
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Tìm kiếm cửa hàng (Tỉnh, Thành)" required id=""
+                                        class="form-control">
+                                </div>
+                               
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Chọn quận, huyện" required id=""
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn btn pull-right s-full-width mt-16" type="submit" value="TÌM KIẾM">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62639.674764074894!2d106.46643671971145!3d11.114891698244966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310b331aef124cb5%3A0x7b2cceaaf6f1be47!2zQW4gUGjDuiwgQ-G7pyBDaGksIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1635931993585!5m2!1svi!2s" width="600" height="600" style="border:0; width: 100%; z-index: 1; margin-top: 20px;" allowfullscreen="" loading="lazy"></iframe>
+           
+            <!-- End Liên Hệ-->
+            <!--begin Dịch Vụ-->
+    <div id="DichVu" class="background">
+
+        <div class="content-section">
+                  <h2 class="section-heading text-gold ">DỊCH VỤ</h2>
+                  <p class="section-sub-heading text-gold  "> ║ Khẳng định phong cách phái mạnh ║</p>
+        </div>
+        <div class="grid">
+            <div class="grid__row">
+                <div class="service__list">
+                    <div class="grid__column--3">
+                        <div class="  service-body ">
+                                  <img src="./assets/img/scissors.png" alt="cắt tóc" class="service text-white">
+                            <div class="service-review">
+                                  <p class="service-desc text-white ">Cắt Tóc</p>
+                                  <p class="service-sub-desc text-white">Cắt tóc chuyên nghiệp chỉ với 80.000 VND</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__column--3">
+                        <div class="service-body">
+                                  <img src="./assets/img/razor.png" alt="cạo mặt" class="service text-white">
+                                  <div class="service-review">
+                                      <p class="service-desc text-white">Cạo Mặt</p>
+                                      <p class="service-sub-desc text-white">Cạo mặt sạch sẽ, láng mịn 20.000 VND</p>
+                                    </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid__column--3">
+                        <div class=" service-body">
+                                      <img src="./assets/img/cao_rau.png" alt="cạo râu" class="service text-white">
+                                      <div class="service-review">
+                                          <p class="service-desc text-white">Cạo Râu</p>
+                                          <p class="service-sub-desc text-white">Chăm sóc và cạo râu với giá 40.000 VND</p>
+                                      </div> 
+                        </div>   
+                    </div>
+        
+                    <div class="grid__column--3">
+                        <div class="  service-body ">
+                                          <img src="./assets/img/spray.png" alt="Tạo Kiểu" class="service text-white">
+                                          <div class="service-review">
+                                              <p class="service-desc text-white">Tạo Kiểu</p>
+                                              <p class="service-sub-desc text-white">Tạo kiểu tóc ấn tượng với giá 30.000 VND</p>
+                                          </div>
+                        </div>
+                    </div>
+                    <div class="grid__column--3">
+                        <div class=" service-body ">
+                                              <img src="./assets/img/Tatoo.png" alt="Tatto Nghệ Thuật" class="service text-white">
+                                              <div class="service-review">
+                                                  <p class="service-desc text-white">Tatto Nghệ Thuật</p>
+                                                  <p class="service-sub-desc text-white">Tattoo một bên cool ngầu 160.000 VND</p>
+                                               </div>
+                        </div>
+                    </div>
+        
+                    <div class="grid__column--3">
+                        <div class="  service-body ">
+                              <img src="./assets/img/skincare.png" alt="Nhuộm Tóc" class="service text-white">
+                              <div class="service-review">
+                                  <p class="service-desc text-white">Nhuộm Tóc</p>
+                                  <p class="service-sub-desc text-white">Nhuộm màu thời trang từ 200.000 - 420.000 VND</p>
+                                </div>
+                        </div>
+                    </div>
+                    <!--End dịch vụ-->
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        
+
+            <!--Map-->
+            
+            <div id="Blog" class="map-section">
+                <img src="./assets/img/barber.jpg" alt="Barber">
+            </div>
+            <div id="footer">
+                <div class="footer-img" style="background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/322289008/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=f2bf7c96c12c88ded8785f535a1420ed);"></div>
+
+                <div class="active-time">
+                    <h2 class="active-heading text-gold">Thời gian hoạt động</h2>
+                    <h4 class="active-sub-heading text-white">Thứ 2 : 10h30 - 17:00</h4>
+                    <h4 class="active-sub-heading text-white">Thứ 3 - Thứ 6: 10h30 - 19:00</h4>
+                    <h4 class="active-sub-heading text-white">Thứ 7 - CN: 9:00 - 19:00</h4>
+                </div>
+
+                <div class="socials-list">
+                    <h3 class="social-follow text-gold">Theo dõi Shop</h3>                  
+                    <div class="social-sub-follow">
+                        <h4><a href=""><i class="ti-facebook icon-facebook  "></i></a> </h4>
+                        <h4><a href=""><i class="ti-twitter icon-twitter"></i></a></h4>
+                        <h4><a href=""><i class="ti-youtube icon-youtube "></i></a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="end">
+            <h2 class="sub-end">© 2021. All Rights Reserved.</h2>
+        </div>
+       
+            <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="ti-close"></i>
+                </div>
+
+                <header class="modal-header">
+                    <i class="modal-heading-icon ti-crown"></i>
+                    Mua Hàng
+                </header>
+
+                <div class="modal-body">
+                    <label for="ticket-quantity" class="modal-label">
+                        <i class="ti-shopping-cart"></i>
+                        Số Lượng:
+                    </label>
+                    <input id="ticket-quantity" type="text" class="modal-input" placeholder="Number">
+
+
+                    <label for="ticket-email" class="modal-label">
+                        <i class="ti-truck"></i>
+                        Địa chỉ:
+                    </label>
+                    <input id="ticket-email" type="text" class="modal-input" placeholder="Address">
+
+                    <button id="buy-tickets">
+                        Đặt Hàng <i class="ti-check"></i>
+
+                    </button>
+                </div>
+                <fooer class="modal-footer">
+                    <p class="modal-help"><a href="">Hỗ Trợ</a></p>
+                </fooer>
+
+            </div>
+           
+            </div>
+            <!--NEW MENU-->
+            <div class="new-menu js-new-menu">
+            <div class="new-menu-container js-new-menu-container">
+                <div class="new-menu-barber">
+                    <i class="ti-spray"></i>
+                    <i class="ti-cut"></i>
+                </div>
+
+                <header class="new-menu-header">
+                    <ul id="sub-menu">
+                        <li><a href="">Trang Chủ </a></li>
+                        <li><a href="">Sản Phẩm </a></li>
+                        <li><a href="">Liên Hệ</a></li>
+                        <li><a href="">Dịch Vụ </a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </header>
+            </div>
+            </div>
+
+            <div id="backtop">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+    <script>
+            const buyBtns = document.querySelectorAll('.js-buy-ticket')
+            const modal = document.querySelector('.js-modal')
+            const modalContainer = document.querySelector('.js-modal-container')
+            const modalClose = document.querySelector('.js-modal-close')
+            //Hàm hiển thị modal
+            function showBuyTickets()
+            {
+                modal.classList.add('open')
+            }
+            //Hàm ẩn modal
+            function hideBuyTickets()
+            {
+                modal.classList.remove('open')
+            }
+            //Lặp qua từng thẻ button
+            for (const buyBtn of buyBtns)
+            {
+                buyBtn.addEventListener('click', showBuyTickets)
+            }
+            //Nghe hành vi click vào nút button
+            modalClose.addEventListener('click', hideBuyTickets)
+
+            modal.addEventListener('click', hideBuyTickets)
+
+            modalContainer.addEventListener('click', function (event)
+            {
+                event.stopPropagation()
+
+            })
+    </script>
+
+    <script>
+            var header = document.getElementById('header');
+            var mobileMenu = document.getElementById('mobile-menu');
+            var headerHeight = header.clientHeight;
+            //Đóng mở mobile menu
+            mobileMenu.onclick = function ()
+            {
+                var isClosed = header.clientHeight === headerHeight;
+                if (isClosed)
+                {
+                    header.style.height = 'auto';
+                }
+                else
+                {
+                    header.style.height = null;
+                }
+            }
+            //Tự động đóng khi chọn menu
+            var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+            for (var i = 0; i < menuItems.length; i++) {
+                var menuItem = menuItems[i];
+
+                menuItem.onclick = function (event) {
+                    var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                    if (isParenMenu) {
+                        event.preventDefault();
+                    }
+                    else {
+                        header.style.height = null;
+                    }
+
+                }
+            }
+    </script>
+
+    <script>
+        function changeHeader() {
+            var header = document.getElementById('header');
+            var scrollValue = window.scrollY;
+           if(scrollValue < 600) {
+               header.classList.remove('bgColor');
+
+           } 
+           else{
+                header.classList.add('bgColor');
+           }
+
+        }
+        window.addEventListener('scroll', changeHeader);
+    </script>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function (){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 5) {
+                counter = 1;
+            }
+        }, 4000);
+
+    </script>
+</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</html>
