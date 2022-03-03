@@ -268,7 +268,7 @@ body {
 
 #slider .text-content {
   position: absolute;
-  bottom: 40px;
+  bottom: 110px;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -896,5 +896,3 @@ body {
   cursor: pointer;
   font-size: 1.6rem;
 }
-
-
